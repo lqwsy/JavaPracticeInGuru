@@ -24,6 +24,7 @@ public class MysqlConnection {
 		Connection conn = null;
 		try (InputStream in = Files.newInputStream(Paths.get("file/mysql.properties"))){
 
+			//以配置文件的方式加载数据库配置
 			props.load(in);
 			String drivers = props.getProperty("jdbc.drivers");
 			String db_url = props.getProperty("jdbc.url");

@@ -1,1 +1,2 @@
-阿哥阿哥阿姐而根据【额【奥i金额奥i个【欸啊就给【a
+className=com.guru.practice.Employee
+methodName=getName

@@ -15,31 +15,13 @@ import com.guru.thread.MyThread;
 public class MainTest {
 	
 	public static void main(String[] args) {
-//		new MyServerSocket().startServer();
-//		new NetWorkPractice().connectionServer();
-/*		int i,j,s = 0;
-		for(i=1;i<5;i++){
-			System.out.println("i= "+i);
-			for(j=1;j<i;j++){
-				System.out.println("j= "+j);
-				s = s+i*j;
-			}
-			System.out.println("js= "+j);
-			System.out.println("s= "+s);
-		}
-		System.out.println(s);
-		i=1;
-		j=1;
-		System.out.println(j<i);*/
-		testConnectMysql();
+//		ReflectObject.getClassObject();
+//		ReflectObject.getConstructor(8);
+		ReflectObject.reflectFromProperties();
 	}
 	
 	public static void testThread(){
 		Thread a = new MyThread("thread a");
-		
-		
-		
-		
 	}
 	
 	public static void testArrayList(){
